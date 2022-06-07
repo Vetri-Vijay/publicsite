@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+  <body style="font-family: sans-serif">
+
+ 
 <head>
+  <style>
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  .imgbox {
+      display: grid;
+      height: 100%;
+  }
+  .center-fit {
+      max-width: 100%;
+  }
+</style>
+<img class="center-fit" src="River.jpg">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +25,30 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<div class="header">
-  <a href="#default" class="logo">Vetri Vijay</a>
-  <div class="header-right">
-    <a href="#home">LinkedIn</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i></a>
+  <b href="#"> Vetri Vijay</b>
+  <div class="topnav-right">
+    <a href="mailto:vetrivijay2002@gmail.com"><i class="fa fa-fw fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/vetri-vijay/"><i class="fa fa-fw fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-fw fa-file"></i> Resume</a>
   </div>
 </div>
 
 
 <body> 
-  <h1>Welcome</h1>
-  <p>test</p>
-  <p>test</p>
-  <p>test</p>
-  <p>test</p>
+  <div class="first">
+    <img src="MSU.png" alt="MSU" width="400" style="-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);">
+  </div>
+  <div class="first_text">
+    <h1 style="padding: 20px;">Welcome to my Website</h1>
+    Hello, my name is Vetri Vijay and the beautiful photo above was taken at Michigan State University during the fall of 2021.<br>
+    Currently I am a junior at MSU for my BS in Computer Science, with a focus on Machine Learning and AI. This website you are <br>
+    looking at is coded in HTLM and CSS, and will be perpetually under development both in terms of design and content as I <br>
+    improve my skills. All of my experiences are listed in reverse chronological order, so you will find my most recent experienes at the bottom <br>
+  </div>
 </body>
+
 </html>
