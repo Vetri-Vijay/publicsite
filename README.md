@@ -1,2 +1,3 @@
 # publicsite
-Public Portfolio Site, Uncomplete
+Public Portfolio Site, Incomplete
+https://vetri-vijay.github.io/publicsite/
