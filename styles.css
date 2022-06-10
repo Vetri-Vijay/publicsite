@@ -13,6 +13,8 @@ p{
   width: auto;
   background-color: rgba(202, 202, 202, 0.933);
   overflow: auto;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 /* Navbar links */
@@ -62,18 +64,16 @@ p{
 
 body{
   text-align: center;
-  background-image: linear-gradient(to bottom right, #ececec, #ececec);
-  background-color: #cad2de;
 }
 
-.section1{
+.intro{
   box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
   border-radius: 6px;
   z-index: 1000000;
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-color: #e1e0e0;
+  background-image: linear-gradient(to right, #93c09b, #decc92);
   margin:1%;
   margin-bottom: 40px;
   margin-left: 2%;
@@ -93,7 +93,7 @@ body{
   padding: 20px;
 }
 
-.section2{
+.quote{
   box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
   border-radius: 6px;
   z-index: 1000000;
@@ -109,9 +109,133 @@ body{
 
 .first_text{
   padding-top: 25px;
-  padding-left: 5%;
+  padding-left: 280px;
   padding-right: 5%;
   padding-bottom: 60px;
   text-align: left;
   text-justify:auto;
+}
+
+.note{
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  z-index: 1000000;
+  top: 10px; left: 10%; right: 10%;
+  width: auto;
+  
+  background-image: linear-gradient(to bottom right, #f9c2db, #f2e4c2);
+  margin:1%;
+  margin-bottom: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: auto;
+}
+
+.frc{
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  z-index: 1000000;
+  top: 10px; left: 10%; right: 10%;
+  width: auto;
+  
+  background-image: linear-gradient(to bottom right, #a8b5db, #cbcbcb);
+  margin:1%;
+  margin-bottom: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: auto;
+}
+
+.ftc{
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  z-index: 1000000;
+  top: 10px; left: 10%; right: 10%;
+  width: auto;
+  
+  background-image: linear-gradient(to bottom right, #c2c5ce, #b5e2dd);
+  margin:1%;
+  margin-bottom: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: auto;
+}
+
+.taekwondo{
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  z-index: 1000000;
+  top: 10px; left: 10%; right: 10%;
+  width: auto;
+  color:rgb(211, 191, 129);
+  
+  background-image: linear-gradient(to bottom right, #000000, #3d3922);
+  margin:1%;
+  margin-bottom: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: auto;
+  
+  background: linear-gradient( 90deg, rgb(216, 176, 101), rgb(220, 201, 74) 30px, rgb(48, 48, 48) 30px, rgb(48, 48, 48))
+}
+
+
+.dm3d{
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  z-index: 1000000;
+  top: 10px; left: 10%; right: 10%;
+  width: auto;
+  
+  background-image: linear-gradient(to bottom right, #f2a1a1, #969696);
+  margin:1%;
+  margin-bottom: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: auto;
+}
+
+.solar{
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  z-index: 1000000;
+  top: 10px; left: 10%; right: 10%;
+  width: auto;
+  
+  background-image: linear-gradient(to bottom right, #c0e7b6, #d5daa3);
+  margin:1%;
+  margin-bottom: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: auto;
+}
+
+.ta{
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  z-index: 1000000;
+  top: 10px; left: 10%; right: 10%;
+  width: auto;
+  
+  background-image: linear-gradient(to bottom right, #86b796, #d2d2d2);
+  margin:1%;
+  margin-bottom: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: auto;
+}
+
+.magna{
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  z-index: 1000000;
+  top: 10px; left: 10%; right: 10%;
+  width: auto;
+  
+  background-image: linear-gradient(to bottom right, #a1a1a1, #bf7a65);
+  margin:1%;
+  margin-bottom: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: auto;
 }
