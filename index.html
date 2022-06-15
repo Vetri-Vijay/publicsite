@@ -18,6 +18,28 @@
   .center-fit {
       max-width: 100%;
   }
+  .collapsible {
+  transition: 3s;
+  cursor: pointer;
+  padding: 15px;
+  width: auto;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  }
+
+.collapsible:hover {
+  background-image: linear-gradient(to bottom, rgba(51, 51, 51, 0.053), #ffffff00);
+}
+
+.content {
+  padding: 0px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f100;
+}
 </style>
 <img class="center-fit" src="RiverSmall.jpg" content="box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);">
   <meta charset="UTF-8">
@@ -33,7 +55,7 @@
   <a class="active" href="#"><i class="fa fa-fw fa-home"></i></a>
   <b href="#">vetrivijay2002@gmail.com </b>
   <div class="topnav-right">
-    <a href="https://github.com/vetri-vijay" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i></a>
+    <a href="https://github.com/vetri-vijay" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github fa-lg"></i></a>
     <a href="mailto:vetrivijay2002@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope"></i></a>
     <a href="https://www.linkedin.com/in/vetri-vijay/" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin"></i></a>
     <a href="https://github.com/Vetri-Vijay/publicsite/blob/main/2:5:2022%20Resume.pdf" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-file"></i> Resume</a>
@@ -43,7 +65,7 @@
 <body> 
   <div class="intro">
     <div class="first">
-      <img src="MSU.png" alt="MSU" width="280" style="-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);">
+      <a href="https://www.msu.edu/" target="_blank" rel="noopener noreferrer"><img src="MSU.png" alt="MSU" width="280" style="margin: 20px; -webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);"></a>
     </div>
     <div class="first_text">
       <h1 style="padding: 20px;">Welcome to my Website</h1>
@@ -52,25 +74,21 @@
       looking at is coded in HTLM and CSS, and will be perpetually under development both in terms of design and content as I 
       improve my skills. All of my experiences are listed in chronological order, so you will find my most recent experienes at the bottom.
       Please feel free to reach out to me through the links at the top of the page. 
+      <br>
+      <br>
+      This portfolio is meant to expand upon my LinkedIn and resume. If that
+      is what you are looking for, check the navigation bar
     </p>
     </div>
   </div>
   <div class="quote">
     <div class="quote_text">
-      "There are only two kinds of languages: the ones people complain about and the ones nobody uses" Bjarne Stroustrup
+      "There are only two kinds of languages: the ones people complain about and the ones nobody uses". - Bjarne Stroustrup
     </div>
   </div>
-  <div class="note">
-    <div class="first_text">
-      <h1 style="padding-top: 20px;padding-bottom: 20px;">Note:</h1>
-      <p>This portfolio is meant to expand upon my LinkedIn and resume, so if you are
-        looking for a more consise view of my experience check out those two resources first
-      </p>
-    </div>
-  </div>
-  <div class="frc">
+  <div section id="frc" class="frc">
     <div class="first">
-      <img src="FRC.jpeg" alt="MSU" width="200" style="border-radius: 10px; border: 3px solid rgb(2, 16, 209); -webkit-filter: drop-shadow(3px 3px 3px #222);filter: drop-shadow(3px 3px 3px #222);">
+      <a href="https://hammerhead226.org/" target="_blank" rel="noopener noreferrer"><img src="FRC.jpeg" alt="MSU" width="200" style="margin:20px; border-radius: 10px; border: 3px solid rgb(2, 16, 209); -webkit-filter: drop-shadow(3px 3px 3px #222);filter: drop-shadow(3px 3px 3px #222);"></a>
     </div>
     <div class="first_text">
       <h1 style="padding-top: 20px;padding-bottom: 20px;">FRC:</h1>
@@ -84,23 +102,30 @@
       </p>
     </div>
   </div>
+
   <div class="ftc">
-    <div class="first">
-      <img src="FTC.png" alt="MSU" width="200" style="-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);">
+    <div class="collapsible">
+      <div class="first">
+        <a href="https://robowarriors14657.weebly.com/" target="_blank" rel="noopener noreferrer"><img src="FTC.png" alt="MSU" width="200" style="-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);"></a>
+      </div>
+      <div class="first_text">
+        <h1 style="padding-top: 20px;padding-bottom: 20px;">FTC Mentoring:</h1>
+        <p>Stemming from my experience on an FRC team, I ofered a mentorship position on an FTC team,
+          which is a middle school robotics team participating in a simpler version of FRC. This 
+          was my first experience in a montor/teacher role, which will become a trend later on in my
+          life. I passed my knowledge in programming and overal robot design to the students and
+          coaches on this team, and helped them make their way to state competition as a rookie team
+        </p>
+      </div>
     </div>
-    <div class="first_text">
-      <h1 style="padding-top: 20px;padding-bottom: 20px;">FTC Mentoring:</h1>
-      <p>Stemming from my experience on an FRC team, I ofered a mentorship position on an FTC team,
-        which is a middle school robotics team participating in a simpler version of FRC. This 
-        was my first experience in a montor/teacher role, which will become a trend later on in my
-        life. I passed my knowledge in programming and overal robot design to the students and
-        coaches on this team, and helped them make their way to state competition as a rookie team
-      </p>
+    <div class="content">
+      hello
     </div>
   </div>
+
   <div class="taekwondo">
     <div class="first">
-      <img src="2Star.png" alt="MSU" width="90" style="margin-left: 30px;-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);">
+      <a href="https://www.troymartialarts.net/" target="_blank" rel="noopener noreferrer"><img src="2Star.png" alt="MSU" width="90" style="margin:20px; margin-left: 30px;-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);"></a>
     </div>
     <div class="first_text">
       <h1 style="padding-top: 20px;padding-bottom: 20px;">Taekwondo:</h1>
@@ -113,33 +138,39 @@
       </p>
     </div>
   </div>
+
   <div class="dm3d">
-    <div class="first">
-      <img src="DM3D.png" alt="MSU" width="200" style="-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);">
-    </div>
-    <div class="first_text">
-      <h1 style="padding-top: 20px;padding-bottom: 20px;">DM3D Technologies:</h1>
-      <p>Right after my high school graduation and the start of the COVID-19 pandemic I began my
-        first internship at DM3D Technologies as a software engineer. As my first experience in a 
-        professional environment I gained plenty of experience in maintaining relations and 
-        effective communication in the context of project specifications, timelines and expectations.
-        My technical experience involved the use of software to manage the operations and data from
-        Direct-Metal-Deposition 3D printers. Doing so involved the use of Visual Basic, LabView for
-        visual interfaces and Microsoft SQL for data management and storage. One project involved 
-        interacting with legacy codebases to add functionality. The projects included creating a
-        post production part analysis tool with a visual feed, software and control panel for a 
-        DAQ, and a data logger and report generation tool. These software solutions greatly
-        increased improved productivity when testing the DMD printers, and created fundamental tools
-        for newer printers. Every project also involved the appending or creation of a user manual,
-        which required detailed descriptions of the tools itself, use cases, limitations and
-        expandability.
+    <div class="collapsible">
+      <div class="first">
+        <a href="https://www.dm3dtech.com/" target="_blank" rel="noopener noreferrer"><img src="DM3D.png" alt="MSU" width="200" style="margin:20px; margin-top: 0px; -webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);"></a>
+      </div>
+      <div class="first_text">
+        <h1 style="padding-top: 20px;padding-bottom: 20px;">DM3D Technologies:</h1>
+        <p>Right after my high school graduation and the start of the COVID-19 pandemic I began my
+          first internship at DM3D Technologies as a software engineer. As my first experience in a 
+          professional environment I gained plenty of experience in maintaining relations and 
+          effective communication in the context of project specifications, timelines and expectations.
+          My technical experience involved the use of software to manage the operations and data from
+          Direct-Metal-Deposition 3D printers. Doing so involved the use of Visual Basic, LabView for
+          visual interfaces and Microsoft SQL for data management and storage. One project involved 
+          interacting with legacy codebases to add functionality. The projects included creating a
+          post production part analysis tool with a visual feed, software and control panel for a 
+          DAQ, and a data logger and report generation tool. These software solutions greatly
+          increased improved productivity when testing the DMD printers, and created fundamental tools
+          for newer printers. Every project also involved the appending or creation of a user manual,
+          which required detailed descriptions of the tools itself, use cases, limitations and
+          expandability.
         </p>
+      </div>
+    </div>
+    <div class="content">
+      hello
     </div>
   </div>
 
   <div class="solar">
     <div class="first">
-      <img src="Solar.png" alt="MSU" width="200" style="-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);">
+      <a href="https://www.msusolar.com/" target="_blank" rel="noopener noreferrer"><img src="Solar.png" alt="MSU" width="200" style="margin:20px; -webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);"></a>
     </div>
     <div class="first_text">
       <h1 style="padding-top: 20px;padding-bottom: 20px;">MSU Solar:</h1>
@@ -161,7 +192,7 @@
 
   <div class="ta">
     <div class="first">
-      <img src="MSU.png" alt="MSU" width="200" style="-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);">
+      <a href="https://cse232-msu.github.io/CSE232/" target="_blank" rel="noopener noreferrer"><img src="MSU.png" alt="MSU" width="200" style="margin:20px; -webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);"></a>
     </div>
     <div class="first_text">
       <h1 style="padding-top: 20px;padding-bottom: 20px;">Teaching Assistant:</h1>
@@ -177,7 +208,7 @@
 
   <div class="magna">
     <div class="first">
-      <img src="Magna.png" alt="MSU" width="200" style="-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);">
+      <a href="https://www.magna.com/innovation" target="_blank" rel="noopener noreferrer"><img src="Magna.png" alt="MSU" width="200" style="margin:20px; -webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222);"></a>
     </div>
     <div class="first_text">
       <h1 style="padding-top: 20px;padding-bottom: 20px;">Magna:</h1>
@@ -195,7 +226,26 @@
       </p>
     </div>
   </div>
+  <p>Collapsible Set:</p>
+    <button class="collapsible">Open Section 1</button>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
 </body>
-
-
 </html>
