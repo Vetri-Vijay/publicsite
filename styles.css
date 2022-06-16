@@ -2,6 +2,22 @@ p{
   font-family:Helvetica;
 }
 
+/*https://www.w3schools.com/howto/howto_js_scroll_indicator.asp*/
+/* The progress container (grey background) */
+.progress-container {
+  margin-top: 44px;
+  width: 100%;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.088);
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background-image: linear-gradient(to right, #74897800, #b9c3fc);
+  width: 0%;
+}
+
 /* Style the navigation bar */
 .navbar {
   box-shadow: 0 10px 10px 0 rgba(128, 136, 161, 0);
@@ -40,29 +56,26 @@ p{
 /* Navbar links on mouse-over */
 .navbar a:hover {
   background-color:rgb(95, 95, 95);
-  color:#cbcbcba5;
+  color:#b9c3fc;
 }
 
-/* Current/active navbar link */
-.active {
-  /*#b9c3fc*/
-  background-color: #d1d1d100;
-}
 
 .topnav-right {
   float: right;
 }
 
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
     display: block;
   }
-}
+} */
+
 
 body{
-  background-color: #e6e6e6;
+  /* background-color: #e6e6e6; */
+  background-image: linear-gradient(to bottom, #e6e6e6, #e6e6e6);
   text-align: center;
 }
 
@@ -75,9 +88,9 @@ body{
   
   background-image: linear-gradient(to right, #93c09b, #decc92);
   margin:1%;
-  margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
   overflow: auto;
 }
 
@@ -103,9 +116,9 @@ body{
   background-image: linear-gradient(to bottom right, #659CD3, #004283);
   margin:1%;
   overflow: auto;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 40px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 30px;
 }
 
 .first_text{
@@ -135,9 +148,9 @@ body{
   
   background-image: linear-gradient(to bottom right, #f9c2db, #f2e4c2);
   margin:1%;
-  margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
   overflow: auto;
 }
 
@@ -150,9 +163,9 @@ body{
   
   background-image: linear-gradient(to bottom right, #a8b5db, #cbcbcb);
   margin:1%;
-  margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
   overflow: auto;
 }
 
@@ -165,9 +178,9 @@ body{
   
   background-image: linear-gradient(to bottom right, #c2c5ce, #b5e2dd);
   margin:1%;
-  margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
   overflow: auto;
 }
 
@@ -181,9 +194,9 @@ body{
   
   background-image: linear-gradient(to bottom right, #000000, #3d3922);
   margin:1%;
-  margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
   overflow: auto;
   
   background: linear-gradient( 90deg, rgb(225, 168, 63), rgb(224, 199, 40) 30px, rgb(45, 45, 45) 30px, rgb(42, 42, 42))
@@ -199,9 +212,9 @@ body{
   
   background-image: linear-gradient(to bottom right, #f2a1a1, #969696);
   margin:1%;
-  margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
   overflow: auto;
 }
 
@@ -214,9 +227,9 @@ body{
   
   background-image: linear-gradient(to bottom right, #c0e7b6, #d5daa3);
   margin:1%;
-  margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
   overflow: auto;
 }
 
@@ -229,9 +242,9 @@ body{
   
   background-image: linear-gradient(to bottom right, #86b796, #d2d2d2);
   margin:1%;
-  margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
   overflow: auto;
 }
 
@@ -244,9 +257,51 @@ body{
   
   background-image: linear-gradient(to bottom right, #a1a1a1, #bf7a65);
   margin:1%;
-  margin-bottom: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
   overflow: auto;
 }
 
+
+@media (max-width: 700px) {
+  .first{
+    margin-left:5px; margin-right: 5px;
+  }
+  .intro{
+    padding: 15px;
+    margin-left:5px; margin-right: 5px;
+  }
+  .frc{
+    padding: 15px;
+    margin-left:5px; margin-right: 5px;
+  }
+  .ftc{
+    margin-left:5px; margin-right: 5px;
+  }
+  .dm3d{
+    padding: 15px;
+    margin-left:5px; margin-right: 5px;
+  }
+  .taekwondo{
+    padding: 15px;
+    background: rgb(45, 44, 44);
+    margin-left:5px; margin-right: 5px;
+  }
+  .ta{
+    padding: 15px;
+    margin-left:5px; margin-right: 5px;
+  }
+  .solar{
+    padding: 15px;
+    margin-left:5px; margin-right: 5px;
+  }
+  .magna{
+    padding: 15px;
+    margin-left:5px; margin-right: 5px;
+  }
+  .first_text{
+    padding-bottom: 0px;
+    display:inline;
+  }
+}

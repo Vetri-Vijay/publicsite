@@ -75,5 +75,22 @@ to learn everything required to turn over software and machine learning models t
 the projects given to me.
 
 A lot of my experience in software engineering comes from projects which are private by 
-nature and aren't visible on my GitHub. If any verification is needed for these projects,
-please feel free to contact me.
+nature and aren't visible on my GitHub. If any verification is needed for the skills learnt
+through these projects, please feel free to contact me.
+
+TensorFlow (Lite)
+Edge Impulse
+WPILib Suite
+Arduino/Raspberry PI/STM32
+CAN Communication Bus
+PID Controlers
+GitHub
+Command Line
+C/C++
+Python w/ Np,Pd,TF,Mp
+Java
+HTML/CSS/JS
+ARM64 Assembly
+Visual Basic
+LabView
+Microsoft SQL
