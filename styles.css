@@ -2,6 +2,12 @@ p{
   font-family:Helvetica;
 }
 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration:underline; }
+a:active { text-decoration: none; }
+.a{ color: #000000; }
+
 /*https://www.w3schools.com/howto/howto_js_scroll_indicator.asp*/
 /* The progress container (grey background) */
 .progress-container {
@@ -14,7 +20,7 @@ p{
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 8px;
-  background-image: linear-gradient(to right, #74897800, #b9c3fc);
+  background-image: linear-gradient(to right, #74897800, #afbaff);
   width: 0%;
 }
 
@@ -75,7 +81,7 @@ p{
 
 body{
   /* background-color: #e6e6e6; */
-  background-image: linear-gradient(to bottom, #e6e6e6, #e6e6e6);
+  background: linear-gradient(to bottom,#929292,#e6e6e6,#e6e6e6, #e6e6e6, #d1d1d1);
   text-align: center;
 }
 
@@ -96,12 +102,13 @@ body{
 
 .first{
   float: left;
-  padding: 0px;
+  padding-bottom: 15px;
   text-align: left;
 }
 
 .quote_text{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #e5e5e5;
   font-size: 18px;
   padding: 20px;
 }
@@ -113,7 +120,8 @@ body{
   top: 10px; left: 10px; right: 10px;
   width: auto;
   color: #E6E6E6;
-  background-image: linear-gradient(to bottom right, #659CD3, #004283);
+  /* Original C++: background-image: linear-gradient(to bottom right, #659CD3, #004283); */
+  background-image: linear-gradient(to bottom right, #95b2ce, #144a80);
   margin:1%;
   overflow: auto;
   margin-left: 8%;
@@ -123,11 +131,18 @@ body{
 
 .first_text{
   padding-top: 25px;
-  padding-left: 250px;
+  padding-left: 230px;
   padding-right: 5%;
-  padding-bottom: 60px;
-  text-align: left;
-  text-justify:auto;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.no_img{
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 5%;
+  padding-bottom: 20px;
+  text-align: justify;
 }
 
 .note_text{
@@ -263,6 +278,21 @@ body{
   overflow: auto;
 }
 
+.code{
+  text-align: center;
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.39);
+  border-radius: 6px;
+  z-index: 1000000;
+  top: 10px; left: 10%; right: 10%;
+  width: auto;
+  
+  background-image: linear-gradient(to bottom right, #e8ceb1, #d1a5bc);
+  margin:1%;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
+  overflow: auto;
+}
 
 @media (max-width: 700px) {
   .first{
@@ -277,6 +307,7 @@ body{
     margin-left:5px; margin-right: 5px;
   }
   .ftc{
+    padding: 15px;
     margin-left:5px; margin-right: 5px;
   }
   .dm3d{
