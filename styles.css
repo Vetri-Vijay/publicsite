@@ -92,7 +92,7 @@ body{
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-image: linear-gradient(to right, #93c09b, #decc92);
+  background-image: linear-gradient(to right, #7ebc89, #dcbc80);
   margin:1%;
   margin-bottom: 30px;
   margin-left: 8%;
@@ -130,11 +130,11 @@ body{
 }
 
 .first_text{
-  padding-top: 25px;
+  padding-top: 20px;
   padding-left: 230px;
   padding-right: 5%;
   padding-bottom: 20px;
-  text-align: justify;
+  text-align: left;
 }
 
 .no_img{
@@ -176,7 +176,7 @@ body{
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-image: linear-gradient(to bottom right, #a8b5db, #cbcbcb);
+  background-image: linear-gradient(to bottom right, #90a5cf, #b4b4b4);
   margin:1%;
   margin-bottom: 30px;
   margin-left: 8%;
@@ -191,7 +191,7 @@ body{
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-image: linear-gradient(to bottom right, #c2c5ce, #b5e2dd);
+  background-image: linear-gradient(to bottom right, #a1c2d2 ,#c38e8e);
   margin:1%;
   margin-bottom: 30px;
   margin-left: 8%;
@@ -225,7 +225,8 @@ body{
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-image: linear-gradient(to bottom right, #f2a1a1, #969696);
+  /* background-image: linear-gradient(to bottom right, #c18787,#b9b1b1, #707070); */
+  background-image: linear-gradient(to bottom right, #aaaaaafc, #cacacafc, #aaaaaafc);
   margin:1%;
   margin-bottom: 30px;
   margin-left: 8%;
@@ -240,7 +241,7 @@ body{
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-image: linear-gradient(to bottom right, #c0e7b6, #d5daa3);
+  background-image: linear-gradient(to bottom right, #87b892, #c9dca4, #cebf90);
   margin:1%;
   margin-bottom: 30px;
   margin-left: 8%;
@@ -255,7 +256,7 @@ body{
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-image: linear-gradient(to bottom right, #86b796, #d2d2d2);
+  background-image: linear-gradient(to bottom right, #4e9465, #8eb391, #a0bba9);
   margin:1%;
   margin-bottom: 30px;
   margin-left: 8%;
@@ -270,7 +271,8 @@ body{
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-image: linear-gradient(to bottom right, #a1a1a1, #bf7a65);
+  /* background-image: linear-gradient(to bottom left, #abababfc, #c1c1c1fc, #abababfc); */
+  background-image: linear-gradient(to bottom left, #7c7c7cfc, #c2c2c2fc, #7c7c7cfc);
   margin:1%;
   margin-bottom: 30px;
   margin-left: 8%;
@@ -286,7 +288,7 @@ body{
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-image: linear-gradient(to bottom right, #e8ceb1, #d1a5bc);
+  background-image: linear-gradient(to bottom right, #e3b490, #d9b2c2);
   margin:1%;
   margin-bottom: 30px;
   margin-left: 8%;
@@ -296,7 +298,7 @@ body{
 
 @media (max-width: 700px) {
   .first{
-    margin-left:5px; margin-right: 5px;
+    margin-left:15px; margin-right: 5px;
   }
   .intro{
     padding: 15px;
