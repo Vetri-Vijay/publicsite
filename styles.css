@@ -1,5 +1,7 @@
 p{
   font-family:Helvetica;
+  font-size: 15.5px;
+  text-align: justify;
 }
 
 a:link { text-decoration: none; }
@@ -13,14 +15,14 @@ a:active { text-decoration: none; }
 .progress-container {
   margin-top: 44px;
   width: 100%;
-  height: 8px;
+  height: 6px;
   background-color: rgba(0, 0, 0, 0.088);
 }
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
-  height: 8px;
-  background-image: linear-gradient(to right, #74897800, #afbaff);
+  height: 6px;
+  background-image: linear-gradient(to right, #afbaff70, #afbaff);
   width: 0%;
 }
 
@@ -35,7 +37,7 @@ a:active { text-decoration: none; }
   background-color: rgba(173, 173, 173, 0.668);
   overflow: auto;
   -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(18px);
 }
 
 /* Navbar links */
@@ -61,8 +63,8 @@ a:active { text-decoration: none; }
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color:rgb(95, 95, 95);
-  color:#b9c3fc;
+  background-color:rgb(103, 103, 103);
+  color:#afbaff;
 }
 
 
@@ -131,9 +133,9 @@ body{
 
 .first_text{
   padding-top: 20px;
-  padding-left: 230px;
-  padding-right: 5%;
-  padding-bottom: 20px;
+  padding-left: 190px;
+  padding-right: 100px;
+  padding-bottom: 10px;
   text-align: left;
 }
 
@@ -296,11 +298,19 @@ body{
   overflow: auto;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .first{
     margin-left:15px; margin-right: 5px;
   }
   .intro{
+    padding: 15px;
+    margin-left:5px; margin-right: 5px;
+  }
+  .code{
+    padding: 15px;
+    margin-left:5px; margin-right: 5px;
+  }
+  .quote{
     padding: 15px;
     margin-left:5px; margin-right: 5px;
   }
@@ -317,7 +327,7 @@ body{
     margin-left:5px; margin-right: 5px;
   }
   .taekwondo{
-    padding: 15px;
+    padding: 30px;
     background: rgb(45, 44, 44);
     margin-left:5px; margin-right: 5px;
   }
@@ -334,7 +344,14 @@ body{
     margin-left:5px; margin-right: 5px;
   }
   .first_text{
+    margin-left: 100px;
     padding-bottom: 0px;
     display:inline;
+  }
+  .progress-container {
+    margin-top: 90px;
+  }
+  .head-img{
+    margin-top: 88px;
   }
 }
