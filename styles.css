@@ -1,7 +1,12 @@
+b.detail { color:#4C4C4C;}
+span.firstname {color:#131d5a;font-size: 18px;}
+span.lastname {color:#5c5f79;font-size: 18px;}
+span.address {color:#6d739f;font-size: 17px;}
+
 p{
   font-family:Helvetica;
   font-size: 15.5px;
-  text-align: justify;
+  text-align: left;
 }
 
 a:link { text-decoration: none; }
@@ -63,10 +68,9 @@ a:active { text-decoration: none; }
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color:rgb(103, 103, 103);
+  background-color:#71758e;
   color:#afbaff;
 }
-
 
 .topnav-right {
   float: right;
@@ -132,10 +136,10 @@ body{
 }
 
 .first_text{
-  padding-top: 20px;
+  padding-top: 13px;
   padding-left: 190px;
   padding-right: 100px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   text-align: left;
 }
 
