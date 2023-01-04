@@ -1,7 +1,7 @@
 b.detail { color:#4C4C4C;}
 span.firstname {color:#131d5a;font-size: 18px;}
-span.lastname {color:#5c5f79;font-size: 18px;}
-span.address {color:#6d739f;font-size: 17px;}
+span.lastname {color:#3a1264;font-size: 18px;}
+span.address {color:#5a5e7b;font-size: 17px;}
 
 p{
   font-family:Helvetica;
@@ -87,7 +87,7 @@ a:active { text-decoration: none; }
 
 body{
   /* background-color: #e6e6e6; */
-  background: linear-gradient(to bottom,#929292,#e6e6e6,#e6e6e6, #e6e6e6, #d1d1d1);
+  background: linear-gradient(to bottom,#b6b6b6,#ededed,#ededed, #dfdfdf, #d1d1d1);
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ body{
 
 .first{
   float: left;
-  padding-bottom: 15px;
+  padding: 15px;
   text-align: left;
 }
 
@@ -136,10 +136,10 @@ body{
 }
 
 .first_text{
-  padding-top: 13px;
-  padding-left: 190px;
+  padding-top: 30px;
+  padding-left: 200px;
   padding-right: 100px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   text-align: left;
 }
 
@@ -294,7 +294,7 @@ body{
   top: 10px; left: 10%; right: 10%;
   width: auto;
   
-  background-image: linear-gradient(to bottom right, #e3b490, #d9b2c2);
+  background-image: linear-gradient(to bottom right, #e3b490, #e198b6);
   margin:1%;
   margin-bottom: 30px;
   margin-left: 8%;
